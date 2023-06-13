@@ -1,0 +1,8 @@
+1. Read people from the console
+2. Read cabin state from the console
+3. Iterate through evrey cabinet and put as much as possible in it 
+    - how many free space is available (max size - current state of cabin)
+    - fill the cabin 
+    - Decrease number of people waiting
+    - check if there are no more people waiting or cabin
+    
