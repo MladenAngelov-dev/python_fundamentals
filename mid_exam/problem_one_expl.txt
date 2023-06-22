@@ -1,0 +1,8 @@
+1. Take the number of  cities .  make a for loop
+- take name of the citi string
+- owners income float
+- owner expenses float
+2.  evry 3-d city  ## special event  * 1.50 additional cost
+3. every 5-t city  rain  so  * 0.90  so no specal event at the 15 city
+4. Print profit for every citi  :.2f
+5. Print total profit !! :.2f

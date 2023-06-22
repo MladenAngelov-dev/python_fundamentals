@@ -1,0 +1,53 @@
+1. input 3 lines   split by ||
+    1.1 split again by " "
+    - one is command
+    - value is int
+    1.2  starting fuel
+    1.3 starting ammo
+2. Diffrent functions for every command .
+     -Travel
+        - fuel- value
+     -Enemy
+        -armor  if  ammo > armor  ammo - armor
+        print enemy defeated
+        if  armor > ammo   fuel =  fuel - armor * 2
+        if  fuel  < 0
+        print failed
+        else
+        print outmanuverd
+     -Repair
+        value + = fuel
+        value * 2  += ammo
+        print  value addet to fuel
+        print value added to ammo
+
+     -Titan
+     print  reachet Titan
+
+
+Two of Clubs, King of Spades, Five of Spades, Jack of Hearts
+2
+Add, Two of Clubs
+Remove, Five of Hearts
+
+Jack of Spades, Ace of Clubs, Jack of Clubs
+2
+Insert, -1, Queen of Spades
+Remove At, 1
+Travel 10||Enemy 30||Repair 15||Titan
+50
+80
+Travel 20||Enemy 50||Enemy 50||Enemy 10||Repair 15||Enemy 50||Titan
+60
+100
+The spaceship travelled 20 light-ye
+
+
+Travel 20||Enemy 50||Enemy 50||Enemy 10||Repair 15||Enemy 50||Titan
+60
+100
+
+
+
+
+ars. An enemy with 50 armour is defeated. An enemy with 50 armour is defeated. An enemy with 10 armour is outmaneuvered. Ammunitions added: 30. Fuel added: 15. Mission failed.
