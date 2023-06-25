@@ -7,15 +7,12 @@ class Article:
 
     def edit(self, new_content: str):
         self.content = new_content
-        return self.content
 
     def change_author(self, new_author: str):
         self.author = new_author
-        return self.author
 
     def rename(self, new_title: str):
         self.title = new_title
-        return self.title
 
     def __repr__(self):
         return f"{self.title} - {self.content}: {self.author}"
