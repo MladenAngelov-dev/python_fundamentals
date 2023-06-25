@@ -1,5 +1,6 @@
 from math import floor
 
+
 def closes_to_center(x1, y1, x2, y2):
     distance_one = x1**2 + y1**2
     distance_two = x2**2 + y2**2
