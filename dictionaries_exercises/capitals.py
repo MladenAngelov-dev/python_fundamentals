@@ -1,0 +1,1 @@
+countrys = input().split(", ")
