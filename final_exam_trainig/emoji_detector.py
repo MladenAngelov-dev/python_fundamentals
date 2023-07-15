@@ -12,7 +12,7 @@ cool_treshold = 0
 for num in numbers:
     if cool_treshold == 0:
         cool_treshold += int(num)
-    elif num != 0:
+    elif num !=0:
         cool_treshold *= int(num)
 print(f"Cool threshold: {cool_treshold}")
 
