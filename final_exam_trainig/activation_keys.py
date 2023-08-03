@@ -3,6 +3,7 @@ def contains(raw, substring):
         return f"{raw} contains {substring}"
     return "Substring not found!"
 
+
 def flip_upper(raw, start, end):
     new_string = ""
     for index in range(len(raw)):
